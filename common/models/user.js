@@ -441,7 +441,7 @@ module.exports = function(User) {
           type: 'email',
           to: email,
           from: 'Team@freecodecamp.com',
-          subject: 'Welcome to Free Code Camp!',
+          subject: 'Updated Contact Details',
           protocol: isDev ? null : 'https',
           host: isDev ? 'localhost' : 'freecodecamp.com',
           port: isDev ? null : 443,
